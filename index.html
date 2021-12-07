@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Project X</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <input type="checkbox" id="flip">
+        <div class="cover">
+            <div class="front">
+                 <h1 class="text" ><i> Be a part of this community!.</i></h1><br><br><br><br>
+                    <p class="text" > <br> <i>EVERYONE DESERVES THE OPPORTUNITY.</i> </p>
+            </div>
+            <div class="back"></div>
+        </div>
+        <div class="forms">
+            <div class="form-content">
+                <div class="signup-form">
+                    <div class="title">Signup 
+                     <form action="mainsite.html" method="post">
+                        <input type="text" name="Firstname" id="fn" placeholder="First Name" required >
+                        <input type="text" name="Lastname" id="ln" placeholder="Last Name" required> 
+                        <input type="email" placeholder="Email" required>
+                        <input type="password" placeholder="Password" required><br>
+                        <button style="cursor:pointer" type="submit" class="sign_up">CREATE ACCOUNT</button> 
+                         <div class="text sign-up-text">Already have an account? <label for="flip">Login</label></div>
+                    </div>
+                     </form>
+                </div>
+                <div class="login-form">
+                    <div class="title">Login
+                     <form action="mainsite.html" method="post">
+                        <input type="email" name="email" id="eml" placeholder="Email">
+                        <input type="password" name="password" id="ps" placeholder="Password">
+                        <p class="forgot"><a href="#">Forgot Password?</a></p>
+                        <button style="cursor: pointer;" type="submit" class="log_in">LOG IN</button> 
+                         <div class="text sign-up-text">Don't have an account? <label for="flip">Register</label></div>
+                    </div>
+                     </form>
+               </div>
+          </div>
+        </div>
+    </div>
+</body>
+</html>
