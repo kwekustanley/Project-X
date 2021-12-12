@@ -25,8 +25,9 @@
                      <form action="mainsite.html" method="post">
                         <input type="text" name="Firstname" id="fn" placeholder="First Name" required >
                         <input type="text" name="Lastname" id="ln" placeholder="Last Name" required> 
-                        <input type="email" placeholder="Email" required>
-                        <input type="password" placeholder="Password" required><br>
+                        <input type="email" name="email" id="email" placeholder="Email">
+                        <input type="password" id="password" placeholder="Password" required ">
+                        <input type="password" id="confirm_password" placeholder="Confirm Password" ><br>
                         <button style="cursor:pointer" type="submit" class="sign_up">CREATE ACCOUNT</button> 
                          <div class="text sign-up-text">Already have an account? <label for="flip">Login</label></div>
                     </div>
@@ -36,8 +37,8 @@
                     <div class="title">Login
                      <form action="mainsite.html" method="post">
                         <input type="email" name="email" id="eml" placeholder="Email">
-                        <input type="password" name="password" id="ps" placeholder="Password">
-                        <p class="forgot"><a href="#" onclick="alert('Website Coming Soon...')">Forgot Password?</a></p>
+                        <input type="password" name="password" id="ps" placeholder="Password" required >
+                        <p class="forgot"><a href="#" onclick="alert('Website coming soon.')">Forgot Password?</a></p>
                         <button style="cursor: pointer;" type="submit" class="log_in">LOG IN</button> 
                          <div class="text sign-up-text">Don't have an account? <label for="flip">Register</label></div>
                     </div>
@@ -46,5 +47,6 @@
           </div>
         </div>
     </div>
+    <script src="Script.js"></script>
 </body>
 </html>
